@@ -128,7 +128,7 @@ BOARD_SEPOLICY_UNION += \
     servicemanager.te \
     sysinit.te \
     wpa_supplicant.te \
-    service.te
+#   service.te
     
 BOARD_HARDWARE_CLASS := device/jide/sk1wg/cmhw
 
