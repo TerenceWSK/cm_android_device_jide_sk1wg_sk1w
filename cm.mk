@@ -14,10 +14,10 @@ $(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
 # Setup device specific product configuration.
 #
 PRODUCT_NAME := cm_sk1wg
-PRODUCT_BRAND := jide
+PRODUCT_BRAND := Jide
 PRODUCT_DEVICE := sk1wg
-PRODUCT_MODEL := JIDE-SK1WG
-PRODUCT_MANUFACTURER := jide
+PRODUCT_MODEL := REMIX SK1WG
+PRODUCT_MANUFACTURER := JIDE
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=JIDE-SK1WG BUILD_FINGERPRINT=Jide/sk1wg/sk1wg:5.1.1/LMY47V/B2016040701:user/release-keys PRIVATE_BUILD_DESC="sk1wg-user 5.1.1 LMY47V B2016040701 release-keys"
 
 # Release name and versioning
