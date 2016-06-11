@@ -101,7 +101,7 @@ BOARD_SEPOLICY_UNION += \
     file_contexts \
     genfs_contexts \
     service_contexts \
-    device.te \
+#    device.te \
     drmserver.te \
     file.te \
     keystore.te \
