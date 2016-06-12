@@ -1,7 +1,7 @@
 type knv_device, dev_type;
-#type baseband_log_device, dev_type;
-#type system_block_device, dev_type;
-type recovery_block_device, dev_type;
+# type baseband_log_device, dev_type;
+# type system_block_device, dev_type;
+# type recovery_block_device, dev_type;
 type metadata_block_device, dev_type;
 type sensors_block_device, dev_type;
 
