@@ -96,39 +96,6 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR ?= device/jide/sk1wg/bluetooth
 # SELINUX Defines
 BOARD_SEPOLICY_DIRS += \
     device/jide/sk1wg/sepolicy
-
-BOARD_SEPOLICY_UNION += \
-    file_contexts \
-    genfs_contexts \
-    service_contexts \
-#    device.te \
-    drmserver.te \
-    file.te \
-    keystore.te \
-    mediaserver.te \
-    recovery.te \
-    sensors_config.te \
-    surfaceflinger.te \
-    system_app.te \
-    system_server.te \
-    ueventd.te \
-    vold.te \
-    radio.te \
-    halsel.te \
-    wifiloader.te \
-    akmd.te \
-    set_hwui_params.te \
-    input-cfboost.te \
-    powerservice.te \
-    rm_ts_service.te \
-    ussr_setup.te \
-    usdwatchdog.te \
-    kernel.te \
-    gpsd.te \
-    servicemanager.te \
-    sysinit.te \
-    wpa_supplicant.te \
-#   service.te
     
 BOARD_HARDWARE_CLASS := device/jide/sk1wg/cmhw
 
