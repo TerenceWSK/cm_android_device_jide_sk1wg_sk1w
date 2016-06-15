@@ -1,8 +1,14 @@
 type knv_device, dev_type;
-# type baseband_log_device, dev_type;
+
+# The following 2 lines declared types that have not been used.
 # type system_block_device, dev_type;
 # type recovery_block_device, dev_type;
-type metadata_block_device, dev_type;
+
+# The following 1 line declared types that have been used, but with duplicate declaration problem. 
+# type metadata_block_device, dev_type;
+
+type baseband_log_device, dev_type;
+
 type sensors_block_device, dev_type;
 
 # /dev/raydium_ts
@@ -11,3 +17,7 @@ type touch_device, dev_type;
 type pmqos_device, dev_type;
 
 type rfkill_device, dev_type;
+
+# Experimental Patch
+# type raydium_service, service_manager_type;
+# type power_service, service_manager_type;
