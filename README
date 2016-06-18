@@ -2,7 +2,7 @@ Device configuration for the JIDE Ultra Tablet
 SK1WG(Global) SK1W(China) 
 
 Note for developers who uses my device tree (by TerenceWSK, aka. devTWSK, twsk):
-*Branch master: synced with branch CM13.0, now is compilable.
+*Branch master: synced with branch CM13.0-building, now is compilable.
 *Branch cm12.1: originally uploaded by scto(http://github.com/scto/android_device_jide_sk1wg), remains mostly untouched. Whether it can run through compilation is not verified and has no guarantee. This branch will keep synced with scto.
 *Branch cm13.0: maintained by me. With errors fixed, this branch now can go through compilation. May contain bugs. Bug fixes, improvements and pull requests are welcomed.
 *Branch cm13.0-NoSepolicy: Experimental build, try using a SELinux disabled kernel with the system. Will not be maintained.
