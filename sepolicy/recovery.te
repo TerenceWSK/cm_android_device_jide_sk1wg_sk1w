@@ -4,8 +4,9 @@ recovery_only(`
   allow recovery rootfs:dir rw_dir_perms;
   allow recovery rootfs:file create_file_perms;
   allow recovery sysfs_devices_system_cpu:file rw_file_perms;
-  allow recovery self:capability mknod;
+# Disabled due to /external/sepolicy/domain.te neverallow
+#  allow recovery self:capability mknod;
   allow recovery usbfs:dir rw_dir_perms;
-  allow recovery device:chr_file { create_file_perms read write };
+# Disabled due to /external/sepolicy/domain.te neverallow
+#  allow recovery device:chr_file { create_file_perms read write };
 ')
-
