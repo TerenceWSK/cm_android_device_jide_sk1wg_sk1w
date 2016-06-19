@@ -71,6 +71,9 @@ $(shell mkdir -p $(TARGET_OUT_KEYLAYOUT); \
 	cp -pf device/jide/sk1wg/keylayout/Vendor_1949_Product_0401.kl $(TARGET_OUT_KEYLAYOUT); \
 	cp -pf device/jide/sk1wg/keylayout/Vendor_2378_Product_100a.kl $(TARGET_OUT_KEYLAYOUT); \
 	cp -pf device/jide/sk1wg/keylayout/Vendor_2378_Product_1008.kl $(TARGET_OUT_KEYLAYOUT); \
+	cp -pf device/jide/sk1wg/keylayout/Vendor_0955_Product_7202.kl $(TARGET_OUT_KEYLAYOUT); \
+	cp -pf device/jide/sk1wg/keylayout/Vendor_0955_Product_7203.kl $(TARGET_OUT_KEYLAYOUT); \
+	cp -pf device/jide/sk1wg/keylayout/Vendor_0955_Product_7210.kl $(TARGET_OUT_KEYLAYOUT); \
 	cp -pf device/jide/sk1wg/keylayout/Vendor_0b05_Product_17fc.kl $(TARGET_OUT_KEYLAYOUT))
 
 
