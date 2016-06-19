@@ -98,7 +98,8 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR ?= device/jide/sk1wg/bluetooth
 # SELINUX Defines
 BOARD_SEPOLICY_DIRS := device/jide/sk1wg/sepolicy/common \
                        device/jide/sk1wg/sepolicy/raydium \
-                       device/jide/sk1wg/sepolicy/product
+                       device/jide/sk1wg/sepolicy/product \
+                       device/jide/sk1wg/sepolicy/sk1wg
 
 # BOARD_SEPOLICY_UNION is no longer needed.
 
