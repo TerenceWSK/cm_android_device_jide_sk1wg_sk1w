@@ -3,4 +3,4 @@
 
 Branch master: same with cm13.0
 Branch cm13.0: compilable with previous kernel;
-Branch cm13.0-building: ready for build
+Branch cm13.0-building: !need to verify
