@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2012 The Android Open Source Project
+ * Copyright (C) 2012 The CyanogenMod Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,9 +14,10 @@
  * limitations under the License.
  */
 
-#ifndef _BDROID_BUILDCFG_H
-#define _BDROID_BUILDCFG_H
+#ifndef DEVICE_PERMS_H
+#define DEVICE_PERMS_H
 
-#define BTM_DEF_LOCAL_NAME "Jide Remix Ultra Tablet"
+#define PROPERTY_PERMS_APPEND \
+    { "sf.lcd_density",   AID_SYSTEM,   0 }, // This allows gralloc to initialize the lcd_density value under certain conditions
 
-#endif
+#endif /* DEVICE_PERMS_H */

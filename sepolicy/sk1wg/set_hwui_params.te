@@ -11,3 +11,4 @@ allow set_hwui_params sysfs_devices_tegradc:dir search;
 allow set_hwui_params sysfs_devices_tegradc:file { getattr open read };
 allow set_hwui_params init:unix_stream_socket connectto;
 allow set_hwui_params property_socket:sock_file write;
+

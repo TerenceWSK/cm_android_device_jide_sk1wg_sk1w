@@ -1,5 +1,5 @@
-type ussr_setup, domain;
-type ussr_setup_exec, exec_type, file_type;
+# type ussr_setup, domain;
+# type ussr_setup_exec, exec_type, file_type;
 
 init_daemon_domain(ussr_setup)
 

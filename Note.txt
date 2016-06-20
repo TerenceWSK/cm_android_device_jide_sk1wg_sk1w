@@ -1,6 +1,6 @@
 // File for co-operating
-14:29 18 Jun, UTC+0
+14:57 19 Jun, UTC+0
 
 Branch master: same with cm13.0
 Branch cm13.0: compilable with previous kernel;
-Branch cm13.0-building: ready for build
+Branch cm13.0-building: !need to verify
