@@ -129,6 +129,6 @@ BOARD_SEPOLICY_DIRS := device/jide/sk1wg/sepolicy/common \
 
 BOARD_HARDWARE_CLASS := device/jide/sk1wg/cmhw
 
-# Vendor Init - no need by know
+# Vendor Init - no need by now
 #TARGET_INIT_VENDOR_LIB := libinit_sk1wg
 #TARGET_LIBINIT_DEFINES_FILE := device/jide/sk1wg/init/init_sk1wg.c
