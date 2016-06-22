@@ -12,7 +12,7 @@ type baseband_log_device, dev_type;
 type sensors_block_device, dev_type;
 
 # /dev/raydium_ts
-type touch_device, dev_type;
+# type touch_device, dev_type;
 
 # type pmqos_device, dev_type;
 
