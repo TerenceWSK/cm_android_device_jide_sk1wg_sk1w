@@ -125,6 +125,8 @@ BOARD_SEPOLICY_DIRS := device/jide/sk1wg/sepolicy/common \
                        device/jide/sk1wg/sepolicy/product \
                        device/jide/sk1wg/sepolicy/sk1wg
 
+POLICYVERS := 26
+
 # BOARD_SEPOLICY_UNION is no longer needed.
 
 BOARD_HARDWARE_CLASS := device/jide/sk1wg/cmhw
