@@ -81,12 +81,12 @@ TARGET_RELEASETOOLS_EXTENSIONS := device/jide/sk1wg
 
 # Partition
 TARGET_USERIMAGES_USE_EXT4 := true
-BOARD_FLASH_BLOCK_SIZE := 131072
 BOARD_BOOTIMAGE_PARTITION_SIZE := 8388608		# 8M
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 8388608		# 8M
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1048576000		# 1000M
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 60578332672	# 56.4G
 BOARD_CACHEIMAGE_PARTITION_SIZE := 805306368		# 768M
+BOARD_FLASH_BLOCK_SIZE := 131072
 #BOARD_FLASH_BLOCK_SIZE := 4096
 
 # PowerHAL
@@ -122,8 +122,7 @@ MALLOC_IMPL := dlmalloc
 # SELINUX Defines
 BOARD_SEPOLICY_DIRS := device/jide/sk1wg/sepolicy/common \
                        device/jide/sk1wg/sepolicy/raydium \
-                       device/jide/sk1wg/sepolicy/product \
-                       device/jide/sk1wg/sepolicy/sk1wg
+                       device/jide/sk1wg/sepolicy/product
 
 POLICYVERS := 26
 
@@ -131,6 +130,6 @@ POLICYVERS := 26
 
 BOARD_HARDWARE_CLASS := device/jide/sk1wg/cmhw
 
-# Vendor Init - no need by now
-#TARGET_INIT_VENDOR_LIB := libinit_sk1wg
-#TARGET_LIBINIT_DEFINES_FILE := device/jide/sk1wg/init/init_sk1wg.c
+# Vendor Init
+TARGET_INIT_VENDOR_LIB := libinit_sk1wg
+TARGET_LIBINIT_DEFINES_FILE := device/jide/sk1wg/init/init_sk1wg.cpp
