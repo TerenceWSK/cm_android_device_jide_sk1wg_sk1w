@@ -81,13 +81,13 @@ TARGET_RELEASETOOLS_EXTENSIONS := device/jide/sk1wg
 
 # Partition
 TARGET_USERIMAGES_USE_EXT4 := true
-#BOARD_FLASH_BLOCK_SIZE := 131072
+BOARD_FLASH_BLOCK_SIZE := 131072
 BOARD_BOOTIMAGE_PARTITION_SIZE := 8388608		# 8M
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 8388608		# 8M
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1048576000		# 1000M
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 60578332672	# 56.4G
 BOARD_CACHEIMAGE_PARTITION_SIZE := 805306368		# 768M
-BOARD_FLASH_BLOCK_SIZE := 4096
+#BOARD_FLASH_BLOCK_SIZE := 4096
 
 # PowerHAL
 TARGET_POWERHAL_VARIANT := tegra
@@ -124,6 +124,8 @@ BOARD_SEPOLICY_DIRS := device/jide/sk1wg/sepolicy/common \
                        device/jide/sk1wg/sepolicy/raydium \
                        device/jide/sk1wg/sepolicy/product \
                        device/jide/sk1wg/sepolicy/sk1wg
+
+POLICYVERS := 26
 
 # BOARD_SEPOLICY_UNION is no longer needed.
 
